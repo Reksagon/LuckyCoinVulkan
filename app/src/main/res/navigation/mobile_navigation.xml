@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/luckyCoinSplash">
+
+    <fragment
+        android:id="@+id/luckyCoinSplash"
+        android:name="com.vula.vulkan.com.lcsplash.LuckyCoinSplash"
+        android:label="lucky_coin_splash_fragment"
+        tools:layout="@layout/lucky_coin_splash_fragment" >
+        <action
+            android:id="@+id/action_luckyCoinSplash_to_luckyCoinMenu"
+            app:destination="@id/luckyCoinMenu" />
+    </fragment>
+    <fragment
+        android:id="@+id/luckyCoinMenu"
+        android:name="com.vula.vulkan.com.lcmenu.LuckyCoinMenu"
+        android:label="lucky_coin_menu_fragment"
+        tools:layout="@layout/lucky_coin_menu_fragment" >
+        <action
+            android:id="@+id/action_luckyCoinMenu_to_luckyCoinProfile"
+            app:destination="@id/luckyCoinProfile" />
+        <action
+            android:id="@+id/action_luckyCoinMenu_to_luckyCoinSound"
+            app:destination="@id/luckyCoinSound" />
+        <action
+            android:id="@+id/action_luckyCoinMenu_to_luckyCoinView"
+            app:destination="@id/luckyCoinView" />
+    </fragment>
+    <fragment
+        android:id="@+id/luckyCoinProfile"
+        android:name="com.vula.vulkan.com.lcprofile.LuckyCoinProfile"
+        android:label="lucky_coin_profile_fragment"
+        tools:layout="@layout/lucky_coin_profile_fragment" >
+        <action
+            android:id="@+id/action_luckyCoinProfile_to_luckyCoinMenu"
+            app:destination="@id/luckyCoinMenu" />
+        <action
+            android:id="@+id/action_luckyCoinProfile_to_luckyCoinView"
+            app:destination="@id/luckyCoinView" />
+    </fragment>
+    <fragment
+        android:id="@+id/luckyCoinSound"
+        android:name="com.vula.vulkan.com.lcsound.LuckyCoinSound"
+        android:label="lucky_coin_sound_fragment"
+        tools:layout="@layout/lucky_coin_sound_fragment" >
+        <action
+            android:id="@+id/action_luckyCoinSound_to_luckyCoinMenu"
+            app:destination="@id/luckyCoinMenu" />
+    </fragment>
+    <fragment
+        android:id="@+id/luckyCoinView"
+        android:name="com.vula.vulkan.com.lcview.LuckyCoinView"
+        android:label="lucky_coin_view_fragment"
+        tools:layout="@layout/lucky_coin_view_fragment" >
+        <action
+            android:id="@+id/action_luckyCoinView_to_luckyCoinMenu"
+            app:destination="@id/luckyCoinMenu" />
+    </fragment>
+</navigation>

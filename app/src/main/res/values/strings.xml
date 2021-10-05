@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">LuckyCoinVulkan</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="game_view_content_description">Game view</string>
+    <string name="onesignal">ZmVkOGJlYWQtZDg0Yy00YmExLTllMDItZTM5NGY1NWVhZjU3</string>
+    <string name="appflyer">U0ZQWmJHZG9oM1FWWWhleVZjcXpCag==</string>
+    <string name="tiktok">aHR0cHM6Ly93d3cudGlrdG9rLmNvbS8=</string>
+    <string name="facebook">aHR0cHM6Ly93d3cuZmFjZWJvb2suY29tLw==</string>
+    <string name="instagram">aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS8=</string>
+    <string name="linkedin">aHR0cHM6Ly93d3cubGlua2VkaW4uY29tLw==</string>
+    <string name="twitter">aHR0cHM6Ly90d2l0dGVyLmNvbS8=</string>
+    <string name="ok">aHR0cHM6Ly9vay5ydS8=</string>
+    <string name="vk">aHR0cHM6Ly92ay5jb20v</string>
+    <string name="youtube">aHR0cHM6Ly93d3cueW91dHViZS5jb20v</string>
+    <string name="index">ZmlsZTovLy9hbmRyb2lkX2Fzc2V0L2luZGV4Lmh0bWw=</string>
+    <string name="privacy">https://com-vula-vulkan-com.flycricket.io/privacy.html</string>
+    <string name="lucky_coin">bHVja3lfY29pbg==</string>
+    <string name="lucky_coin_add">bHVja3lfY29pbl9hZGQ=</string>
+    <string name="database">aHR0cHM6Ly9jb212dWxhdnVsa2FuY29tLWRlZmF1bHQtcnRkYi5maXJlYmFzZWlvLmNvbS8=</string>
+</resources>

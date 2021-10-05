@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "628871177118",
+    "project_id": "comvulavulkancom",
+    "storage_bucket": "comvulavulkancom.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:628871177118:android:bf842e7dfca0a99304ac8f",
+        "android_client_info": {
+          "package_name": "com.vula.vulkan.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "628871177118-tfv7jf1m41e2mts0m40ettrc03lcgsv7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDK9khNn8KjAyJ25QQpBLdDTsA1nq5TfQA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "628871177118-tfv7jf1m41e2mts0m40ettrc03lcgsv7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
