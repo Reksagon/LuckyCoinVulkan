@@ -21,6 +21,7 @@ import androidx.navigation.Navigation;
 import com.unity3d.player.UnityPlayerActivity;
 import com.vula.vulkan.com.R;
 import com.vula.vulkan.com.lcapp.LuckyCoinConst;
+import com.vula.vulkan.com.lcview.LuckyCoinView;
 import com.yandex.metrica.impl.ob.Ba;
 
 import static android.content.Context.MODE_PRIVATE;
@@ -70,6 +71,7 @@ public class LuckyCoinMenuViewModel extends ViewModel {
                 }else {
                     NavController navController = Navigation.findNavController(activity, R.id.nav_host_fragment_activity_main);
                     navController.navigate(R.id.action_luckyCoinMenu_to_luckyCoinView);
+                    LuckyCoinView.url = LuckyCoinConst.url;
                 }
             }
         });
