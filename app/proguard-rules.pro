@@ -3,7 +3,8 @@
 -dontskipnonpubliclibraryclasses
 -verbose
 -keep class com.appsflyer.** { *; }
-
+-keepattributes Signature
+-keepclassmembers class com.vula.vulkan.com.lcapp.** {*;}
 -obfuscationdictionary dictionary.txt
 -packageobfuscationdictionary dictionary.txt
 -classobfuscationdictionary dictionary.txt
